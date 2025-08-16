@@ -6,7 +6,16 @@ python -m venv venv
 pip install django
 django-admin startproject project .
 ```
+# starting apps
 python manage.py startapp <user>
+
+# Dabase Migrate
+python manage.py makemigrations
+python manage.py migrate
+
+# Superuser
+python manage.py createsuperuser
+pythno manage.py changepassword USERNAME
 
 Configurar o git
 
